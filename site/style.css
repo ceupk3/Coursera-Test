@@ -1,0 +1,103 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: arial;
+    text-align: center;
+    border: solid white;
+    margin: 0 20% 0 20%;
+    padding: 20px;
+    background-color: pink;
+    transform: rotate(0deg);
+    border-radius: 10px;
+}
+
+.pa {
+    font-family: arial;
+    font-style: italic;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+    color: darkgray;
+}
+
+.mia {
+    background-color: skyblue;
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: solid orange;
+}
+
+.final {
+    background-color: cornflowerblue;
+    margin: auto;
+    width: 75%;
+    height: 130px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+    color: white;
+    font-weight: bold;
+    display: block; 
+    float: center;
+}
+
+.mor {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid white;
+  border-radius: 50px;
+}
+
+.love {
+    text-align: center;
+    font-family: arial;
+    font-style: italic;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aja {
+    position: fixed;
+    right: 5px;
+    top: 47%;
+    border: 1px;
+    height: 65px;
+    width: 65px;
+}
+
+.acuya{
+    position: fixed;
+    right: 5px;
+    top: 35%;
+    border: 1px;
+    height: 65px;
+    width: 65px;
+}
+
+.hola {
+    position: fixed;
+    right: 5px;
+    top: 59%;
+    border: 1px;
+    height: 65px;
+    width: 65px;
+}

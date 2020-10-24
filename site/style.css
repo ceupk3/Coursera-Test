@@ -47,7 +47,7 @@ img {
     background-color: cornflowerblue;
     margin: auto;
     width: 75%;
-    height: 130px;
+    height: 200px;
     text-align: center;
     padding: 25px 0 25px 0;
     color: white;
@@ -100,4 +100,51 @@ img {
     border: 1px;
     height: 65px;
     width: 65px;
+}
+
+nav {
+    background-color: lightgray; 
+    height: 30px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.pepe {
+    text-align: center;
+    font-family: arial;
+    border: solid black;
+    width: 33.33%;
+    font-size: 24px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pablo {
+    text-align: center;
+    font-family: arial;
+    border: solid black;
+    width: 33.33%;
+    font-size: 24px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.pedro {
+    text-align: center;
+    font-family: arial;
+    border: solid black;
+    width: 33.33%;
+    font-size: 24px;
+    float: left;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
 }

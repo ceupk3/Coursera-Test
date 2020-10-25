@@ -84,6 +84,7 @@ img {
     height: 65px;
     width: 65px;
     opacity: 0.5;
+    transition: width 0.5s, height 0.5s, opacity 0.5s;
 }
 
 .acuya{
@@ -94,6 +95,7 @@ img {
     height: 65px;
     width: 65px;
     opacity: 0.5;
+    transition: width 0.5s, height 0.5s, opacity 0.5s;
 }
 
 .hola {
@@ -104,6 +106,7 @@ img {
     height: 65px;
     width: 65px;
     opacity: 0.5;
+    transition: width 0.5s, height 0.5s, opacity 0.5s;
 }
 
 nav {
@@ -117,52 +120,89 @@ nav {
 .pepe {
     text-align: center;
     font-family: arial;
-    border: solid black;
     width: 33.33%;
     font-size: 23px;
     float: left;
     color: black;
     font-weight: bold;
-    border-radius: 5px;
     text-decoration: none;
-    background-color: lightgray;  
+    border: solid white 1px;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);  
 }
 
 .pablo {
     text-align: center;
     font-family: arial;
-    border: solid black;
     width: 33.33%;
     font-size: 23px;
     float: left;
     color: black;
     font-weight: bold;
-    border-radius: 5px;
     text-decoration: none;
+    border: solid white 1px;
     background-color: lightgray; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
 }
 .pedro {
     text-align: center;
     font-family: arial;
-    border: solid black;
     width: 33.33%;
     font-size: 23px;
     float: left;
     color: black;
     font-weight: bold;
-    border-radius: 5px;
     text-decoration: none;
-    background-color: lightgray; 
+    border: solid white 1px;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19); 
 }   
 .pedro:hover {
     background-color: white;
 }
+.pedro:active {
+    background-color: lightgray;
+}
 .pepe:hover {
     background-color: white;
 }
+.pepe:active {
+        background-color: lightgray;
+}
+
 .pablo:hover {
     background-color: white;
 }
+.pablo:active {
+    background-color: lightgray;
+}
 .si {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aja:hover{
+    width: 150px;
+    height: 150px;
+    opacity: 100%;
+}
+.acuya:hover{
+    width: 150px;
+    height: 150px;
+    opacity: 100%;
+}
+.hola:hover{
+    width: 150px;
+    height: 150px;
+    opacity: 100%;
+}
+.hola:active {
+    border-radius: 50%;
+    background-color: white;
+}
+.aja:active {
+    border-radius: 50%;
+    background-color: white;
+}
+.acuya:active {
+    border-radius: 35%;
+    background-color: white;
 }

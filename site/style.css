@@ -41,6 +41,7 @@ img {
     height: 200px;
     width: 200px;
     border: solid orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .final {
@@ -150,4 +151,13 @@ nav {
     font-weight: bold;
     border-radius: 5px;
     text-decoration: none;
-}    
+}   
+.pedro:hover {
+    background-color: white;
+}
+.pepe:hover {
+    background-color: white;
+}
+.pablo:hover {
+    background-color: white;
+}

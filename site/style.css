@@ -82,6 +82,7 @@ img {
     border: 1px;
     height: 65px;
     width: 65px;
+    opacity: 0.5;
 }
 
 .acuya{
@@ -91,6 +92,7 @@ img {
     border: 1px;
     height: 65px;
     width: 65px;
+    opacity: 0.5;
 }
 
 .hola {
@@ -100,6 +102,7 @@ img {
     border: 1px;
     height: 65px;
     width: 65px;
+    opacity: 0.5;
 }
 
 nav {
@@ -147,4 +150,4 @@ nav {
     font-weight: bold;
     border-radius: 5px;
     text-decoration: none;
-}
+}    

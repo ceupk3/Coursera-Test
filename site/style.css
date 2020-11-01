@@ -31,6 +31,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
+    border: solid 1px white;
 }
 
 img {
@@ -46,13 +47,14 @@ img {
     background-color: cornflowerblue;
     margin: auto;
     width: 75%;
-    height: 200px;
+    height: 100%;
     text-align: center;
     padding: 25px 0 25px 0;
     color: white;
     font-weight: bold;
     display: block; 
     float: center;
+    border: solid 1px white;
 }
 
 .mor {
@@ -204,4 +206,10 @@ nav {
 .acuya:active {
     border-radius: 35%;
     background-color: white;
+}
+span {
+    font-family: arial;
+    font-weight: normal;
+    float: left;
+    padding-left: 1%;
 }
